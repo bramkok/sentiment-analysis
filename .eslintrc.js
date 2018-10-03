@@ -1,3 +1,6 @@
 module.exports = {
-  extends: ['bramkok']
+  extends: ['bramkok'],
+  rules: {
+    'no-console': 'off'
+  }
 }
